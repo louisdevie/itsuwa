@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navbar_grocery_list">Liste de courses</string>
+    <string name="navbar_fridge">Mon frigo</string>
+    <string name="navbar_recipes">Recettes</string>
+</resources>
