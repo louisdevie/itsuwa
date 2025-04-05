@@ -31,10 +31,18 @@ fun Main() {
     }
 }
 
-@Preview(showBackground = true)
+@Preview(showBackground = true, showSystemUi = true)
 @Composable
-fun MainPreview() {
-    ItsuwaTheme {
+fun MainPreviewLight() {
+    ItsuwaTheme(darkTheme = false) {
+        Main()
+    }
+}
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun MainPreviewDark() {
+    ItsuwaTheme(darkTheme = true) {
         Main()
     }
 }

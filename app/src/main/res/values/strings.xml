@@ -3,4 +3,7 @@
     <string name="navbar_grocery_list">Grocery list</string>
     <string name="navbar_fridge">My fridge</string>
     <string name="navbar_recipes">Recipes</string>
+    <string name="action_add">Add</string>
+    <string name="prompt_add_item">Add something to the list...</string>
+    <string name="action_done">Done</string>
 </resources>
